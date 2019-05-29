@@ -10,12 +10,10 @@ Usando **DART** e **FLUTTER**
 - **double** - numeros decimais
 
 
-----------------------------------------------------------------------------------------------------------------------------------------
-
 ### Práticas
 
+**1)**
 ```
-1)
 //Colocamos pra imprimir na tela algumas coisinhas e criamos algumas variáveis basicas, devemos lembrar que quando não colocamos o tipo de variavel,
 ela é configurada para ser sempre o que teve depois do igual
 
@@ -33,13 +31,10 @@ void main() {
   print ("Numero: $numero");
   
 }
-
 ```
 
-------------------------------------------------------------
-
+**2)**
 ```
-2)
 //Cálculo simples com casas decimais
 
 void main() {
@@ -61,13 +56,10 @@ void main() {
   imc = peso / (altura * altura);
   print ("Seu imc é $imc");
 }
-
 ```
 
-------------------------------------------------------------
-
+**3)**
 ```
-3)
 //Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final uma mensagem com todos esses dados.
 
 void main() {
