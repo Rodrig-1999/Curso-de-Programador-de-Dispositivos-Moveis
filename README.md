@@ -71,14 +71,14 @@ void main() {
 
 void main() {
   String nome, sobrenome, email;
-    nome = "Rodrigo";
-  	sobrenome = "Santos";
-  	email = "rodrigo.santoss23sv@gmail.com";
+  nome = "Rodrigo";
+  sobrenome = "Santos";
+  email = "rodrigo.santoss23sv@gmail.com";
       
   int anonascimento, anoatual, idade;
-    anonascimento = 2002;
- 		idade = 2019 - anonascimento;
+  anonascimento = 2002;
+ 	idade = 2019 - anonascimento;
  
- print('Olá, $nome $sobrenome,\no e-mail fornecido por você foi "$email".\nVocê tem $idade anos.');
+  print('Olá, $nome $sobrenome,\no e-mail fornecido por você foi "$email".\nVocê tem $idade anos.');
 }
 ```
