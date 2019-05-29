@@ -1,10 +1,10 @@
 # SENAC
-### Curso Desenvolvimento de Aplicativos Móveis
-#### Usando **DART** e **FLUTTER**
+Curso Desenvolvimento de Aplicativos Móveis
+Usando **DART** e **FLUTTER**
 
-# Aula 1 - Váriaveis
+## Aula 1 - Váriaveis
 
-## Tipos de variáveis
+### Tipos de variáveis
 - String - textos
 - int - números inteiros
 - double - numeros decimais
