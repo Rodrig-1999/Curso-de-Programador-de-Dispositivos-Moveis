@@ -66,8 +66,8 @@ void main() {
 
 **3)**
 ```
-//Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final uma mensagem
-com todos esses dados.
+//Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final
+uma mensagem com todos esses dados.
 
 void main() {
   String nome, sobrenome, email;
