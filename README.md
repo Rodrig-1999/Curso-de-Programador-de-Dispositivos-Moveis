@@ -20,7 +20,9 @@ devemos lembrar que quando não colocamos o tipo de variavel,
 ela é configurada para ser sempre o que teve depois do igual
 
 // main = principal
-/* Variavel: Um valor (número, texto, valor lógico, etc) armazenado na memória ram do computador,que perde seu valor sempre que o PC é desligado. Seu valor pode ser modificado a qualquer momento. */
+/* Variavel: Um valor (número, texto, valor lógico, etc)
+armazenado na memória ram do computador,que perde seu valor
+sempre que o PC é desligado. Seu valor pode ser modificado a qualquer momento. */
 
 void main() {
   print("Olá World");
