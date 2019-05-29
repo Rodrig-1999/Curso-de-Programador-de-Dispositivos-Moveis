@@ -5,9 +5,9 @@ Usando **DART** e **FLUTTER**
 ## Aula 1 - Váriaveis
 
 ### Tipos de variáveis
-- String - textos
-- int - números inteiros
-- double - numeros decimais
+- **String** - textos
+- **int** - números inteiros
+- **double** - numeros decimais
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
