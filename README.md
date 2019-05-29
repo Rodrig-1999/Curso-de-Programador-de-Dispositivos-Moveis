@@ -15,11 +15,12 @@ Usando **DART** e **FLUTTER**
 
 **1)**
 ```
-//Colocamos pra imprimir na tela algumas coisinhas e criamos algumas variáveis basicas, devemos lembrar que quando não colocamos o tipo de variavel,
+//Colocamos pra imprimir na tela algumas coisinhas e criamos algumas variáveis basicas,
+devemos lembrar que quando não colocamos o tipo de variavel,
 ela é configurada para ser sempre o que teve depois do igual
 
 // main = principal
-/* Variavel: Um valor (número, texto, valor lógico, etc) armazenado na memória ram do computador, que perde seu valor sempre que o PC é desligado. Seu valor pode ser modificado a qualquer momento. */
+/* Variavel: Um valor (número, texto, valor lógico, etc) armazenado na memória ram do computador,que perde seu valor sempre que o PC é desligado. Seu valor pode ser modificado a qualquer momento. */
 
 void main() {
   print("Olá World");
@@ -63,7 +64,8 @@ void main() {
 
 **3)**
 ```
-//Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final uma mensagem com todos esses dados.
+//Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final uma mensagem
+com todos esses dados.
 
 void main() {
   String nome, sobrenome, email;
