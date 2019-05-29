@@ -34,7 +34,7 @@ void main() {
   
 }
 
-´´´
+```
 
 ------------------------------------------------------------
 
@@ -61,6 +61,7 @@ void main() {
   imc = peso / (altura * altura);
   print ("Seu imc é $imc");
 }
+
 ```
 
 ------------------------------------------------------------
@@ -81,4 +82,5 @@ void main() {
  
   print('Olá, $nome $sobrenome,\no e-mail fornecido por você foi "$email".\nVocê tem $idade anos.');
 }
+
 ```
