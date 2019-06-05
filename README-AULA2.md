@@ -1,6 +1,12 @@
-Aula 2
-${renda_pessoa.toStringAsFixed(2)}
+# SENAC
+Curso Desenvolvimento de Aplicativos Móveis
+Usando **DART** e **FLUTTER**
 
+## Aula 2
+
+### Exercício
+
+${renda_pessoa.toStringAsFixed(2)}
 O método toStringAsFixed() foi usado para formatar as casas (2) decimais da variável(renda_pessoa) double.
 
 void main() {
@@ -70,7 +76,10 @@ else
 {
     //faz isso se o teste for falso
 }
-Exemplo if 💾
+
+Exemplos IF
+
+1)
 string curso = "programador android";
 
 if(curso == "programador android")
@@ -81,7 +90,9 @@ else
 {
     print("Vacilão, aposto que você faz ADM.");
 }
-Exemplo if 2
+
+
+2)
 void main() {
 	double nota1, nota2, media;
   nota1 = 5;
