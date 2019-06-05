@@ -14,7 +14,7 @@ Usando **DART** e **FLUTTER**
 ### Práticas
 
 **1)**
-```
+```dart
 //Colocamos pra imprimir na tela algumas coisinhas e criamos algumas variáveis basicas,
 devemos lembrar que quando não colocamos o tipo de variavel,
 ela é configurada para ser sempre o que teve depois do igual
@@ -39,7 +39,7 @@ void main() {
 ------------------------------------------------------------
 
 **2)**
-```
+```dart
 //Cálculo simples com casas decimais
 
 void main() {
@@ -65,7 +65,7 @@ void main() {
 ------------------------------------------------------------
 
 **3)**
-```
+```dart
 //Criar variaveis pelo nome, sobrenome, email e ano de nascimento. Calcular a idade e mostrar ao final
 uma mensagem com todos esses dados.
 
@@ -138,7 +138,6 @@ void main() {
   print("Renda por pessoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
  
 }
-
 ```
 
 ### Condição Lógica IF
