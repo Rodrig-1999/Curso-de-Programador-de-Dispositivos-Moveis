@@ -268,22 +268,29 @@ void main(){
  String cidade_natal;
  cidade_natal = "São João da Boa Vista";
   
-	if(cidade_natal.toLowerCase() == "são joão da boa vista")
-	{
-  	print("São joanense");
-	}else if(cidade_natal.toLowerCase() == "jundiai"){
-    	print("Jundiaiense");
-  	}else if(cidade_natal.toLowerCase() == "campos do jordão"){
-    	print("Jordanense");
-  	}else if(cidade_natal.toLowerCase() == "ribeirão-preto"){
- 			print("Ribeirão-pretano");
-  	}else if(cidade_natal.toLowerCase() == "franco"){
-     	print("Francano");
-  	}else if(cidade_natal.toLowerCase() == "santa isabel"){
-     print("Isabelense");
-	}else{
-  print("Cidade não cadastrada, infelizmente só registramos cidades do estado de São Paulo. Adicionaremos o mais rápido possível.");
-	}
+if(cidade_natal.toLowerCase() == "são joão da boa vista")
+{
+ print("São joanense");
+ 
+}else if(cidade_natal.toLowerCase() == "jundiai"){
+print("Jundiaiense");
+
+}else if(cidade_natal.toLowerCase() == "campos do jordão"){
+print("Jordanense");
+
+}else if(cidade_natal.toLowerCase() == "ribeirão-preto"){
+print("Ribeirão-pretano");
+
+}else if(cidade_natal.toLowerCase() == "franco"){
+print("Francano");
+
+}else if(cidade_natal.toLowerCase() == "santa isabel"){
+print("Isabelense");
+
+}else{
+print("Cidade não cadastrada, infelizmente só registramos cidades do estado de São Paulo. Adicionaremos o mais rápido possível.");
+}
+
 }
 ```
 
