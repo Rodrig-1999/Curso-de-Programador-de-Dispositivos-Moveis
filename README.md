@@ -262,6 +262,7 @@ void main() {
 
 2)
 ```
+dart
 // toLowerCase compara a coisa digitada com a fixa, tudo em minúsculo
 
 void main(){
