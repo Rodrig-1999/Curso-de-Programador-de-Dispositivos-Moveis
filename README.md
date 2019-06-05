@@ -198,3 +198,52 @@ void main() {
   }
 }
 ```
+
+### Aula 3
+
+## Exercícios
+
+1) Fizemos uma "calculadora" para equação de segundo grau, importando bliblioteca do Dart e aprendemos como colocar raiz quadrada
+
+// Importar uma biblioteca do Darth, já existente
+
+import 'dart:math' as math;
+void main() {
+  String palavra_magica;
+  palavra_magica = "stranger";
+  
+  if(palavra_magica == "stranger"){
+    print("Exercício 1 - Bhaskara");
+    
+    double delta, a, b, c, x;
+    a = 1;
+    b = -10;
+    c = 25;
+    delta = (b * b)- 4 * a *c;
+    
+    print("Delta = $delta");
+    
+    if(delta < 0){
+      
+    	print("Não há nenhuma raíz real, pois o Delta é menor que zero");
+    }
+    else{
+      
+    	double raiz_q, x1, x2;
+    //Raiz quadrada
+      raiz_q = math.sqrt(delta);	//para a operação de raiz quadrada
+      x1 = (-b + raiz_q) / (2 * a);
+      x2 = (-b - raiz_q) / (2 * a);
+      
+      print("Raiz do Delta = $raiz_q");
+      print("X1 = $x1");
+      print("X2 = $x2");
+      print("Houve uma raíz real, pois o delta é maior que zero");
+    }
+    
+  		}else{
+   		print("Acesso negado!");
+  		}
+
+}
+
