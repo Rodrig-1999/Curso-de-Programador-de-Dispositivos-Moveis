@@ -294,3 +294,28 @@ print("Cidade não cadastrada, infelizmente só registramos cidades do estado de
 }
 ```
 
+### Exemplos simples de números pares
+
+1)
+```dart
+import 'dart:math' as math;
+void main(){
+	int conta;
+  conta = 10% 2;
+  print("Resultado = $conta");
+}
+```
+
+2)
+```
+import 'dart:math' as math;
+void main(){
+	int numero = 666;
+  if(numero % 2 == 0)
+  {
+    print("Par");
+  }else{
+    print("Ímpar");
+    }
+}
+```
