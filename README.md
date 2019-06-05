@@ -199,9 +199,9 @@ void main() {
 }
 ```
 
-### Aula 3
+## Aula 3
 
-## Exercícios
+### Exercícios
 
 1) Fizemos uma "calculadora" para equação de segundo grau, importando bliblioteca do Dart e aprendemos como colocar raiz quadrada
 
