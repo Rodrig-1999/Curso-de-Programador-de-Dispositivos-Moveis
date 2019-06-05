@@ -271,7 +271,7 @@ void main(){
 	if(cidade_natal.toLowerCase() == "são joão da boa vista")
 	{
   	print("São joanense");
-		}else if(cidade_natal.toLowerCase() == "jundiai"){
+	}else if(cidade_natal.toLowerCase() == "jundiai"){
     	print("Jundiaiense");
   	}else if(cidade_natal.toLowerCase() == "campos do jordão"){
     	print("Jordanense");
