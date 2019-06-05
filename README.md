@@ -214,7 +214,7 @@ print(math.pow(2,7)); //exibe o resutado de 2 elevado a 7
 ```
 
 ### Exemplos usando if dentro de if
-```
+```dart
 import 'dart:math' as math;
 void main() {
   String palavra_magica;
