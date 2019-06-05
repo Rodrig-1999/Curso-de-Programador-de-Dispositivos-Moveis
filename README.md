@@ -201,12 +201,20 @@ void main() {
 
 ## Aula 3
 
-### Exercícios
+// Foi importada a *biblioteca* **darth:math** para podermos usar funções matemáticas como potência e raiz quadrada, no exemplo abaixo foi usada a função **math.sqrt()** para calcular a raiz de delta.
+- Após a importação foi dado um apelido para chamar a função através da sintaxe **as** (dart:matg as **math**)
+- Foram usados 2 ifs, o primeiro para dar acesso através da palavra mágica STRANGER e o segundo para fazer a equação.
+- Cada if tem seu própio else, daí a importância de *identar*, organizar o código com **TABS**
 
-1) Fizemos uma "calculadora" para equação de segundo grau, importando bliblioteca do Dart e aprendemos como colocar raiz quadrada
+### Exemplos usando math
+```dart
+print(math.sqrt(9)); //exibe a raiz de 9
+print(math.pi); //exibe o valor de pi
+print(math.pow(2,7)); //exibe o resutado de 2 elevado a 7
+```
 
-// Importar uma biblioteca do Darth, já existente
-
+### Exemplos usando if dentro de if
+```
 import 'dart:math' as math;
 void main() {
   String palavra_magica;
@@ -246,4 +254,4 @@ void main() {
     }
 
 }
-
+```
