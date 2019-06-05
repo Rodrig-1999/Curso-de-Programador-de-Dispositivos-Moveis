@@ -213,7 +213,11 @@ print(math.pi); //exibe o valor de pi
 print(math.pow(2,7)); //exibe o resutado de 2 elevado a 7
 ```
 
-### Exemplos usando if dentro de if
+### Exemplos usando if dentro de if (if aninhado ou encadeado)
+
+Quando temos mais do que 2 testes possíveis, é necessário alterar a estrutura e acrescentar um **else if** após o primeiro if
+
+1)
 ```dart
 import 'dart:math' as math;
 void main() {
@@ -255,3 +259,31 @@ void main() {
 
 }
 ```
+
+2)
+```
+// toLowerCase compara a coisa digitada com a fixa, tudo em minúsculo
+
+void main(){
+ String cidade_natal;
+ cidade_natal = "São João da Boa Vista";
+  
+	if(cidade_natal.toLowerCase() == "são joão da boa vista")
+	{
+  	print("São joanense");
+		}else if(cidade_natal.toLowerCase() == "jundiai"){
+    	print("Jundiaiense");
+  	}else if(cidade_natal.toLowerCase() == "campos do jordão"){
+    	print("Jordanense");
+  	}else if(cidade_natal.toLowerCase() == "ribeirão-preto"){
+ 			print("Ribeirão-pretano");
+  	}else if(cidade_natal.toLowerCase() == "franco"){
+     	print("Francano");
+  	}else if(cidade_natal.toLowerCase() == "santa isabel"){
+     print("Isabelense");
+	}else{
+  print("Cidade não cadastrada, infelizmente só registramos cidades do estado de São Paulo. Adicionaremos o mais rápido possível.");
+	}
+}
+```
+
