@@ -6,8 +6,8 @@ Usando **DART** e **FLUTTER**
 
 ### Exercício
 
-renda_pessoa.toStringAsFixed(2)
-O método toStringAsFixed() foi usado para formatar as casas (2) decimais da variável(renda_pessoa) double.
+/nrenda_pessoa.toStringAsFixed(2)
+/nO método toStringAsFixed() foi usado para formatar as casas (2) decimais da variável(renda_pessoa) double.
 
 void main() {
   String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
