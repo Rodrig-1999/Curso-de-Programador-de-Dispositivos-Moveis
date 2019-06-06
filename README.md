@@ -319,3 +319,34 @@ void main(){
     }
 }
 ```
+
+## Aula 4
+//Operadores Lógicos E e OU
+
+### Tipos de operadores lógicos
+- **E** (&&) : só será verdadeiro, se todas as expressões forem verdadeiras
+- **OU** (||) : só será falso, se todas as expressões forem falsas
+
+### Teste, exercício booleano
+```dart
+void main(){
+  bool var_a, var_b;
+  
+  var_a = true;
+  var_b = false;
+  
+  print((!var_a && var_a) || (var_b || !var_b));
+  
+  int numero = 10;
+  
+  if(var_a == !var_b)
+  {
+  	numero = 666;  
+  }
+  else
+  {
+	numero = numero + 1;
+  }
+  print(numero);
+}
+```
