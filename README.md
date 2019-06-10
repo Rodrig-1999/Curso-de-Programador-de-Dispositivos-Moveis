@@ -2,14 +2,14 @@
 Curso Desenvolvimento de Aplicativos Móveis
 Usando **DART** e **FLUTTER**
 
+------------------------------------------------------------------------------------------------------------------------
+
 ## Aula 1 - Váriaveis
 
 ### Tipos de variáveis
 - **String** - textos
 - **int** - números inteiros
 - **double** - numeros decimais
-
-------------------------------------------------------------------------------------------------------------------------
 
 ### Práticas
 
@@ -348,5 +348,59 @@ void main(){
 	numero = numero + 1;
   }
   print(numero);
+}
+```
+
+
+## Aula 5 - Funções
+
+### Como criar funções
+- Primeiro, colocamos o RETORNO da função(tipo)
+- Depois, colocamos o NOME da função
+- Depois do nome, colocamos os parenteses, dentro deles, podemos colocar PARÂMETROS
+- Por último, colocamos a abertura e fechamento de chaves, dentro delas irá ter o código da função. 
+- IMPORTANTE: Devemos chamá-las após todo esse processo!
+
+```dart
+void main() {
+ print("Minha calculadora");
+  
+  double n1, n2;
+    n1 = 10;
+  	n2 = 5;
+  
+  calcular(n1,n2,"+");
+  calcular(n1,n2,"-");
+  calcular(n1,n2,"*");
+  calcular(n1,n2,"/");
+}
+
+/*Como cria uma função?
+ * 
+ * Primeiro, colocamos o RETORNO da função(tipo)
+ * Depois, colocamnos o NOME da função
+ * Depois do nome, colocamos os parenteses, dentro deles, podemos colocar PARÂMETROS
+ * Por último, colocamos a abertura e fechamento de chaves, dentro delas irá ter o código da função.
+ * 
+ * IMPORTANTE: Só criar a função não serve pra NADA. A gente te, que CHAMAR essa função no main
+*/
+
+void calcular(double novoNumero1, double novoNumero2, String operacao){
+	print("\nQuanto é $novoNumero1 $operacao $novoNumero2?");
+  double resposta;
+  
+  if(operacao == "+"){
+    resposta = novoNumero1 + novoNumero2;
+  }else if(operacao == "-"){
+    resposta = novoNumero1 - novoNumero2;
+  }else if(operacao == "/"){
+    resposta = novoNumero1 / novoNumero2;
+  }else if(operacao == "*"){
+    resposta = novoNumero1 * novoNumero2;
+  }else{
+    resposta = 0;
+  }
+  
+  print("O resultado é: $resposta");
 }
 ```
