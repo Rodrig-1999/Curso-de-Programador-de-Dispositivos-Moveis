@@ -549,3 +549,31 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 ```
+
+
+### Estrutura básica de todo aplicativo
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MeuApp());
+}
+
+class MeuApp extends StatefulWidget{
+  @override
+  State<StatefulWidget> createState( {
+    //TODO: implement createState
+    return _MeuAppState();
+  })
+}
+
+class MeuAppState extends State<MeuApp>{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return null;
+  }
+  
+}
+```
