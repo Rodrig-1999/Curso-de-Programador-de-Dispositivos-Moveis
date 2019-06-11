@@ -405,7 +405,7 @@ void calcular(double novoNumero1, double novoNumero2, String operacao){
 }
 ```
 
-### Flutter
+## Aula 6 - Flutter
 Entramos em flutter,dev (ou flutter.io) e prcuramos o local pra começar a utilizar o flutter (Get Started). Seguimos os seguintes passos:
 - Baixar o SDK do flitter e colocamos na pasta "C:/src/flutter"
 - Baixar e instalar o Android Studio
