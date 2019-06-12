@@ -26,14 +26,14 @@ void main() {
       new Material(
         color: Colors.lightBlue,
       ), //Material
-  ) //runApp
+  ); //runApp
 } //void main
 ```
 
 ## Terceira etapa
 - Adicionamos outra propriedade ao container, que seria uma espécie de filho (semelhante ao "div")
 - Colocamos nesse "filho" um texto
-- Formatamos o tetxo, para ficar como queriamos, no centro da tela(Center), com determinado tamanho(40) e cor(preta).
+- Formatamos o texto, para ficar como queriamos, no centro da tela(Center), com determinado tamanho(40) e cor(preta). **O child TEXT tem dentro de si propriedades do texto e o estilo do texto(com suas propriedades dentro dos parenteses)**
 
 ````dart
 import 'package:flutter/material.dart';
@@ -46,8 +46,8 @@ void main() {
             child: new Text("Hello World", textDirection: TextDirection.ltr,
               style: new TextStyle(fontSize: 40, color: Colors.black),
             ), //Text
-          ) //Child
+          ) //Center
       ) //Material
-  ) // runApp
+  ); // runApp
 } //void main
 ```
