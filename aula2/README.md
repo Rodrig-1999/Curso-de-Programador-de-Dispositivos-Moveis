@@ -31,7 +31,7 @@ void main() {
 ```
 
 ## Terceira etapa
-- Adicionamos outra propriedade ao container, que seria uma espécie de filho (semelhante ao <div>)
+- Adicionamos outra propriedade ao container, que seria uma espécie de filho (semelhante ao "div")
 - Colocamos nesse "filho" um texto
 - Formatamos o tetxo, para ficar como queriamos, no centro da tela(Center), com determinado tamanho(40) e cor(preta).
 
