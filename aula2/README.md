@@ -33,7 +33,7 @@ void main() {
 ## Terceira etapa
 - Adicionamos outra propriedade ao container, que seria uma espécie de filho (semelhante ao <div>)
 - Colocamos nesse "filho" um texto
-- Atribuimos coisas a esse tetxo, para ficar como queriamos, no centro da tela, com determinado tamanho e cor preta.
+- Formatamos o tetxo, para ficar como queriamos, no centro da tela(Center), com determinado tamanho(40) e cor(preta).
 
 ````dart
 import 'package:flutter/material.dart';
