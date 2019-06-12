@@ -35,6 +35,7 @@ void main() {
 - Colocamos nesse "filho" um texto
 - Atribuimos coisas a esse tetxo, para ficar como queriamos, no centro da tela, com determinado tamanho e cor preta.
 
+````dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,3 +50,4 @@ void main() {
       ) //Material
   ) // runApp
 } //void main
+```
