@@ -86,7 +86,7 @@ void main() {
       ) //Material
   ); //runApp
 } //void main
-```
+`````
 
 ### Quinta etapa
 - Colocamos o **UserAccountsDrawerHeader**, que é um widget específico para informações de usúario, quando ele está logado.
@@ -123,7 +123,7 @@ void main() {
       )//Material
   ); //runApp
 } //void main
-```
+`````
 
 ### Sexta etapa
 - Adicionamos tópicos na lista que aparecerá no menu e o nomeamos.
