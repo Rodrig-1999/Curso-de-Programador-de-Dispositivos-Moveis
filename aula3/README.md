@@ -31,7 +31,7 @@ void main() {
       ) //Material
   ); //runApp
 } //void main
-```
+`````
 
 ## Terceira etapa
 - Adicionamos o widget **drawer**, que seria um menu lateral esquerdo estilo gaveta.
@@ -51,7 +51,7 @@ void main() {
      ), //Material
   ); //runApp
 } //void main
-```
+`````
 
 ## Quarta etapa
 - Damos ao Drawer um "filho", o **ListView** (é uma lista, basicamente), que teve também uma criança, o **Widget**,
