@@ -1,5 +1,5 @@
 # Exemplo 2 - Criação de menu
-**IMPORTANTE:: Recomenda-se que tente refazer o exercício em casa sozinho**
+**IMPORTANTE: Recomenda-se que tente refazer o exercício em casa sozinho**
 
 ## Primeira etapa
 - Método principal (main).
