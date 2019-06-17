@@ -1,3 +1,4 @@
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -40,3 +41,4 @@ class _MeuAppState extends State<MeuApp>{
     );
   }
 }
+```
