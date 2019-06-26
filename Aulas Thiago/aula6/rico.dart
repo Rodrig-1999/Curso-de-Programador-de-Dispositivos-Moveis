@@ -55,6 +55,7 @@ class _RicoState extends State<Rico> {
                   style: TextStyle(
                     fontSize: 45,
                     fontWeight: FontWeight.w900,
+                    //Ternário (Condição lógica resumida)
                     color: _contador >= 1000 ? Colors.red : Colors.lightGreen,
                   ),
                   ),
