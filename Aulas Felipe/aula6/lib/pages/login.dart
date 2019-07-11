@@ -27,6 +27,7 @@ class _LoginPageState extends State<LoginPage> {
         children: <Widget>[
           //Era um Container e virou um Form para VALIDAR as caixas de texto
           Form(
+            key: chaveForm,
             child: Padding(
               padding: EdgeInsets.all(36.0),
               child: Column(
