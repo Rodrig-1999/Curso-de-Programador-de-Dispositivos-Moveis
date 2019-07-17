@@ -3,6 +3,8 @@ Usando **DART** e **FLUTTER**
 
 ------------------------------------------------------------------------------------------------------------------------
 
+# Temas das aulas e exercícios. #
+
 ## Aula 1 - Váriaveis
 
 ### Tipos de variáveis
