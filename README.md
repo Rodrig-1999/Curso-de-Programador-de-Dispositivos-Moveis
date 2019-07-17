@@ -1,5 +1,4 @@
-# SENAC
-Curso Desenvolvimento de Aplicativos Móveis
+# SENAC Curso Desenvolvimento de Aplicativos Móveis
 Usando **DART** e **FLUTTER**
 
 ------------------------------------------------------------------------------------------------------------------------
